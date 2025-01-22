@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Opción de mnú: Ver rutas anteriores -->
+    <item
+        android:id="@+id/action_view_routes"
+        android:title="Ver puntos de ubicación"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <!-- Opción de menú: Acerca de -->
+    <item
+        android:id="@+id/action_about"
+        android:title="Acerca de"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom|withText" />
+</menu>

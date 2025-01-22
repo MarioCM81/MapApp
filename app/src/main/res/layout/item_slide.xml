@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_dark">
+
+    <!-- Imagen de explicación -->
+    <ImageView
+        android:id="@+id/slideImage"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/slideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Título"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/montserrat_regular" />
+
+    <!-- Descripción -->
+    <TextView
+        android:id="@+id/slideDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="40dp"
+        android:text="Descripción detallada de esta página."
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/montserrat_regular"
+        android:gravity="center" />
+
+</RelativeLayout>

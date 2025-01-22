@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_dark"
+    tools:ignore="ExtraText">
+
+    <!-- ViewPager2 para las pantallas deslizadas -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/start_button" />
+
+    <!-- Indicadores de la página usando DotsIndicator -->
+    <LinearLayout
+        android:id="@+id/pageIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <!-- Título de la APP -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAPASEAR"
+        android:textSize="45sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <!-- Botón "Comenzar" -->
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="169dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="57dp"
+        android:backgroundTint="@color/blue_dark"
+        android:text="COMENZAR"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+</RelativeLayout>
+
