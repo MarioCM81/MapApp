@@ -3,7 +3,7 @@
 
 ## **Descripción**
 
-Esta es una aplicación móvil desarrollada para **Android** que permite a los usuarios trazar rutas y obtener direcciones utilizando **GPS** en tiempo real. 
+Esta es una aplicación móvil desarrollada para **Android** que permite a los usuarios trazar rutas y escuchar audios asociados a localizaciones utilizando **GPS** en tiempo real. 
 Además, permite explorar marcadores asociados a audios en mp3.
 Utiliza **Room** para persistir datos localmente en un dispositivo, lo que permite el acceso a la información incluso sin conexión a Internet. 
 La aplicación está diseñada para ser intuitiva y fácil de usar, proporcionando una experiencia de navegación fluida.
