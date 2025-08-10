@@ -46,7 +46,3 @@ La aplicación está diseñada para ser intuitiva y fácil de usar, proporcionan
 3. Los puntos de ruta y puntos de interés se guardan localmente, lo que permite acceso sin conexión.
 
 Este proyecto está licenciado bajo la licencia **MIT**.
-
----
-
-Este README proporciona una visión general clara y sencilla para que cualquier persona que vea tu repositorio entienda rápidamente de qué trata el proyecto, cómo instalarlo, cómo usarlo y cómo contribuir. Si quieres agregar más detalles o tienes alguna pregunta específica, ¡avísame!
